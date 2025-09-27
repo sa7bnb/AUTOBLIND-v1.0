@@ -31,7 +31,7 @@ A WiFi-enabled smart blinds controller using ESP8266 and stepper motor control, 
 
 ## Quick Start
 
-1. **Flash firmware** to Wemos D1 Mini Pro
+1. **Flash firmware** to Wemos D1 Mini Pro - Use esphome flasher.exe
 2. **Connect to WiFi**: Join "AUTOBLIND-Setup" (password: 12345678)
 3. **Configure**: Open browser to `192.168.4.1`, set WiFi credentials
 4. **Calibrate**: Set upper/lower positions via web interface
