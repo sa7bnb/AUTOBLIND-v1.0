@@ -93,10 +93,6 @@ http://[IP]/api/move/direction=down
 # Stop
 http://[IP]/api/stop
 
-
-📊 Technical Specifications
-ParameterValuePosition Range0 to -204,800 stepsRevolution Capacity50 full rotationsStep Resolution4,096 steps/revolutionMax Speed500 steps/secondWiFi2.4GHz 802.11 b/g/nPower Consumption~800mA peak
-
 🔧 Troubleshooting
 Motor Issues
 
