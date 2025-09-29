@@ -22,7 +22,6 @@
 - 🔄 **Reverse Direction** - Works with any installation
 - 💾 **Position Memory** - Survives power loss
 - 🚀 **HTTP API** - Full automation support
-- 📏 **50 Revolution Range** - 204,800 steps capacity
 
 ---
 
