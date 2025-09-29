@@ -93,39 +93,6 @@ http://[IP]/api/move/direction=down
 # Stop
 http://[IP]/api/stop
 
-# Status (JSON)
-http://[IP]/api/status
-Advanced Control (POST)
-bash# Move specific steps
-POST /api/move
-Body: steps=1000
-
-# Move by revolutions
-POST /api/move
-Body: revolutions=5
-
-# Absolute position
-POST /api/move
-Body: position=-50000
-
-# Set limits
-POST /api/set_position
-Body: type=upper|lower
-
-# Reverse direction
-POST /api/set_reverse
-Body: reverse=true|false
-Example: Home Assistant Integration
-yamlrest_command:
-  blinds_up:
-    url: "http://[IP]/api/move"
-    method: POST
-    payload: "direction=up"
-  
-  blinds_down:
-    url: "http://[IP]/api/move"
-    method: POST
-    payload: "direction=down"
 
 📊 Technical Specifications
 ParameterValuePosition Range0 to -204,800 stepsRevolution Capacity50 full rotationsStep Resolution4,096 steps/revolutionMax Speed500 steps/secondWiFi2.4GHz 802.11 b/g/nPower Consumption~800mA peak
@@ -148,7 +115,6 @@ Web Interface
 🌐 Can't access pages? → Verify device IP in Serial Monitor
 🐌 Slow response? → Normal for ESP8266 during motor movement
 
-
 📸 Screenshots
 <div align="center">
 Mobile Remote Interface
@@ -159,18 +125,8 @@ Status Dashboard
 Real-time monitoring with API reference
 </div>
 
-📝 Version Control
-Current version uses EEPROM version tracking:
-
-To force EEPROM reset: Increment VERSION_NUMBER in code
-To preserve settings: Keep VERSION_NUMBER unchanged
-
-
 📄 License
 Copyright © 2025 Anders Isaksson. All rights reserved.
-
-🤝 Contributing
-This is a personal project. Feel free to fork and modify for your own use.
 
 ⚙️ Built With
 
@@ -184,14 +140,4 @@ EEPROM - Settings storage
 Made with ❤️ by Anders Isaksson
 ⬆ Back to Top
 </div>
-```
-Denna layout innehåller:
 
-Professionell header med badges
-Tydlig innehållsförteckning
-Visuellt separerade sektioner
-Tabeller för bättre struktur
-Ikoner för enklare navigation
-Centrerad och balanserad design
-GitHub-standard markdown
-Responsiv layout som fungerar på både desktop och mobil
