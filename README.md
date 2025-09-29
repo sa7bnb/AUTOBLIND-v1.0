@@ -110,21 +110,6 @@ WiFi Issues
 🔍 Lost connection? → Auto-retry every 30 seconds
 📍 Find IP address? → Check Serial Monitor (115200 baud)
 
-Web Interface
-
-🌐 Can't access pages? → Verify device IP in Serial Monitor
-🐌 Slow response? → Normal for ESP8266 during motor movement
-
-📸 Screenshots
-<div align="center">
-Mobile Remote Interface
-Clean 3-button control optimized for smartphones
-Configuration Panel
-Easy calibration and manual controls
-Status Dashboard
-Real-time monitoring with API reference
-</div>
-
 📄 License
 Copyright © 2025 Anders Isaksson. All rights reserved.
 
@@ -134,7 +119,6 @@ ESP8266WiFi - WiFi connectivity
 ESP8266WebServer - Web interface
 AccelStepper - Motor control
 EEPROM - Settings storage
-
 
 <div align="center">
 Made with ❤️ by Anders Isaksson
