@@ -115,9 +115,3 @@ ESP8266WiFi - WiFi connectivity
 ESP8266WebServer - Web interface
 AccelStepper - Motor control
 EEPROM - Settings storage
-
-<div align="center">
-Made with ❤️ by Anders Isaksson
-⬆ Back to Top
-</div>
-
