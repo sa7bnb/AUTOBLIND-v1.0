@@ -10,8 +10,6 @@
 
 *Control your blinds from anywhere with a mobile-friendly interface and automation-ready API*
 
-[Features](#features) • [Hardware](#hardware) • [Setup](#quick-setup) • [API](#api) • [Troubleshooting](#troubleshooting)
-
 </div>
 
 ---
