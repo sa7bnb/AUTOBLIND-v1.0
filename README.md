@@ -1,4 +1,4 @@
-# 🏠 AUTOBLIND v1.0
+# 🏠 AUTOBLIND v1.1
 
 **Smart Motorized Blind Controller with WiFi & Scheduling**
 
