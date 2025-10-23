@@ -19,7 +19,7 @@ Control blinds via web browser from any device on your home network
 Automatic up/down control based on weekly schedule with NTP time synchronization
 
 ### 🎯 Precision Calibration
-Adjustable upper and lower position limits for exact control
+Adjustable upper and lower position limits for exact control and speed settings.
 
 ### ⚡ Energy Efficient
 Motor coils automatically released after movement to minimize heat generation
