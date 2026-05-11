@@ -46,4 +46,4 @@ POST /api/set_schedule               # Configure schedule
 ```
 
 ## 📄 License
-Copyright © 2025 A. Isaksson. All rights reserved.
+Copyright © 2026 A. Isaksson. All rights reserved.
