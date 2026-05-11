@@ -18,6 +18,10 @@ Motor coils automatically released after movement to minimize heat generation
 Mobile-optimized web interface with real-time status updates
 ### 🔧 Easy Setup
 Access Point mode for simple initial configuration without external router
+Setup is done by connecting to AP: AUTOBLIND-Setup, with no password. 
+Browse to 192.168.4.1 and click on WiFi Settings to connect this to your home WiFi.
+Then click Configuration to adjust speed, and then the upper and lower limit mode.
+
 ---
 ## 📸 Preview
 
